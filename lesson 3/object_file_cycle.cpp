@@ -2,14 +2,17 @@
 разгледахме дефолт конструктури и с параметри
 монолит - цялото приложение е на едно място
 микросървисна архитектура - разбит монолит
+
+constructor -  a special function of a class that is automatically called when an object is created.
+destructor - a special function of a class that is automatically called when an object goes out of scope or is explicitly deleted
+
 голямата 5рка:
-default construktor
-param construktor
+default constructor
+param constructor
 copy constructor
 move constructor
-operator=
-
-destructor*/
+operator= (a special kind of operator used to assign the value of one object to another of the same type.)
+*/
 
 /*SHALLOW COPY - пести памет, но ако единият изчезне, и другият също (shared resourses)
   DEEP COPY - прави същото второ*/
