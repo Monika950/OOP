@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/X270/Documents/OOP",
-      "program": "c:/Users/X270/Documents/OOP/build/Debug/outDebug",
+      "cwd": "c:/Users/X270/Documents/OOP/homework1",
+      "program": "c:/Users/X270/Documents/OOP/homework1/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
