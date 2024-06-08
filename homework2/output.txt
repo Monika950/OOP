@@ -1,0 +1,2 @@
+e Ivan Ivanov 28 designer 3 Average Salary: 910
+m Petar Petrov 35 delivery
