@@ -1,11 +1,13 @@
-package bg.sofia.uni.fmi.mjt.gameplatform.store.item;
+package bg.sofia.uni.fmi.mjt.gameplatform.store.item.category;
+
+import bg.sofia.uni.fmi.mjt.gameplatform.store.item.StoreItem;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
-public abstract class Base implements StoreItem  {
+public abstract class Base implements StoreItem {
     private String title;
     private BigDecimal price;
     private LocalDateTime releaseDate;
