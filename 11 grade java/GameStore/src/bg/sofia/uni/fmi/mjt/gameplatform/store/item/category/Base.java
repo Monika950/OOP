@@ -3,6 +3,7 @@ package bg.sofia.uni.fmi.mjt.gameplatform.store.item.category;
 import bg.sofia.uni.fmi.mjt.gameplatform.store.item.StoreItem;
 
 import java.math.BigDecimal;
+import java.math.RoundingMode;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
@@ -15,7 +16,7 @@ public abstract class Base implements StoreItem {
 
     public Base(String title, BigDecimal price, LocalDateTime releaseDate) {
         this.title = title;
-        this.price = price;
+        this.setPrice(price);
         this.releaseDate = releaseDate;
         this.rating = new ArrayList<>();
     }
@@ -42,7 +43,11 @@ public abstract class Base implements StoreItem {
 
     @Override
     public void setPrice(BigDecimal price) {
-        this.price = price;
+        if (price != null) {
+            this.price = price.setScale(2, RoundingMode.HALF_UP);
+        } else {
+            this.price = BigDecimal.ZERO.setScale(2, RoundingMode.HALF_UP);
+        }
     }
 
     @Override
