@@ -1,0 +1,5 @@
+2023-10-26 10:00:00.123 INFO    com.example.UserService        User logged in: user123
+2023-10-26 10:00:05.456 DEBUG   com.example.DatabaseConnection Connection established
+2023-10-26 10:00:10.789 WARNING com.example.FileHandler        File not found: config.ini
+2023-10-26 10:00:15.012 ERROR   com.example.OrderProcessing    Order processing failed: invalid item
+2023-10-26 10:00:20.345 INFO    com.example.ProductService     Product added: product456
